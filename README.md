@@ -37,7 +37,7 @@ lvs-core/
  │    ├── state.ts
  │    ├── types.ts
  │    └── sim.ts
- │    └── 
+ │    └── tate.ts
  │    └──
  │
  ├── docs/                     # Full LVS documentation set (PDF / MD)
