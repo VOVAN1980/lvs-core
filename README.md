@@ -1,55 +1,45 @@
 <p align="center"> <img src="assets/logo/lvs-logo-full.png" width="150"/> </p>
-LVS Core
-
-# LVS Core — Living Value System (Protocol Research)
-
-**LVS Core** is the reference research and simulation engine of **LVS — Living Value System**,  
-a post-blockchain value network based on **trust dynamics, protected minimum value, and regenerative consensus**.
-
-This repository includes:
-- core simulation engine (TypeScript)
-- protocol specifications
-- consensus research papers
-- full architecture documents
-- API developer guides
-- MVP prototype logic
-- testnet preparation materials
-
-LVS is not a blockchain.  
-It is a **value network** where *value, trust, resilience and regeneration* replace blocks, mining and gas fees.
-
----
-
-## 🔥 Key Concepts
-
-### **Value Units (VU)**
-A gas-free, instant transferable value primitive used across the network.
-
-### **Trust Credits (TC)**
-A measurable trust metric reflecting the node’s long-term honest behavior.
-
-### **Vault Guard**
-A protected minimum value that can never be accidentally lost or destroyed.
-
-### **Regenerative Consensus**
-A self-healing multi-layer process allowing LVS networks to recover from inconsistency without forks.
-
-### **Drift Audit**
-A continuous, probabilistic background check that detects anomalies, rejects harmful transactions and re-aligns nodes.
-
----
-
-## 📦 Repository Structure
-
-1. Repository Structure
+<p align="center"> <img src="assets/logo/lvs-logo-full.png" width="150"/> </p> <h1 align="center"><b>LVS Core — Living Value System (Protocol Research)</b></h1> <p align="center"> Reference research engine and technical foundation of the LVS value network. </p> 
+________________________________________
+Overview
+LVS Core is the official research and simulation engine of
+LVS — Living Value System, a post-blockchain value network based on:
+•	Trust Dynamics
+•	Protected Minimum Value (Vault Guard)
+•	Regenerative (Self-Healing) Consensus
+•	Continuous Drift Auditing
+•	Gas-free Value Units (VU)
+LVS is not a blockchain.
+It is a value network where value, trust, resilience and regeneration replace blocks, mining, and gas fees.
+This repository contains:
+•	the TypeScript reference simulation engine
+•	research papers and technical specifications
+•	consensus and architecture documents
+•	the full LIP process
+•	API guides
+•	MVP and testnet preparation materials
+________________________________________
+Key Concepts
+Value Units (VU)
+A gas-free, instant transferable unit used across the network.
+Trust Credits (TC)
+A measurable trust metric representing long-term honest behavior.
+Vault Guard
+A protected minimum value preventing accidental loss or system-level erosion.
+Regenerative Consensus
+A multi-layer, forkless, self-healing consensus process.
+Drift Audit
+A probabilistic background audit that detects anomalies and realigns node state.
+________________________________________
+Repository Structure
 lvs-core/
- ├── src/                      # TypeScript core (engine + CLI demo)
+ ├── src/                      # TypeScript core engine + CLI demo
  │    ├── index.ts
  │    ├── state.ts
  │    ├── types.ts
  │    └── sim.ts
  │
- ├── docs/                     # Full LVS documentation (PDF)
+ ├── docs/                     # Full LVS documentation set (PDF / MD)
  │    ├── whitepaper/
  │    ├── research/
  │    ├── consensus/
@@ -58,176 +48,132 @@ lvs-core/
  │    ├── spec/
  │    └── mvp/
  │
- ├── lips/                     # LIP – Living Improvement Proposals
+ ├── lips/                     # LIP — Living Improvement Proposals
  │    └── LIP-0004-regenerator-and-rejections.md
  │
- ├── assets/logo/              # Branding / logos
+ ├── assets/logo/              # Branding / visual identity
  │    ├── lvs-logo.png
  │    ├── lvs-logo-banner.png
  │    └── lvs-logo-full.png
  │
- ├── CONTRIBUTING.md           # Contribution rules
- ├── GOVERNANCE.md             # Governance model
- ├── SECURITY.md               # Security policy
- ├── LICENSE                   # Composite LVS License
- ├── CODE_OF_CONDUCT.md        # To be added
+ ├── CONTRIBUTING.md
+ ├── GOVERNANCE.md
+ ├── SECURITY.md
+ ├── CODE_OF_CONDUCT.md
+ ├── LICENSE
+ ├── LICENSE_OVERVIEW.md
+ ├── LICENSE_TECHNOLOGY.md
  ├── package.json
  └── tsconfig.json
-
-2. Documentation Set
+________________________________________
+Documentation Set
+All documentation is located in the docs/ directory.
 Whitepaper
-
-LVS Whitepaper
-
-LVS One-Pager
-
+•	LVS Whitepaper
+•	LVS One-Pager
 Research
-
-Research Paper Draft
-
-LVS Master Document
-
+•	Research Paper Draft
+•	LVS Master Document
 Consensus
-
-Drift Consensus Specification
-
-LVS Protocol Specification
-
+•	Drift Consensus Specification
+•	LVS Protocol Specification
 Architecture
-
-Technical Architecture
-
-MVP Prototype Architecture
-
+•	Technical Architecture
+•	MVP Prototype Architecture
 API
-
-Developer API Guide
-
+•	Official Developer API Guide
 Spec / Deep Dive
-
-Node Implementation Blueprint
-
-Security Deep Dive
-
+•	Node Implementation Blueprint
+•	Security Deep Dive
 MVP / Testnet
-
-Testnet Launch Plan
-
-Website Content Package
-
-All documents are located inside docs/.
-
-3. Building & Running
+•	Testnet Launch Plan
+•	Public Website Content Package
+________________________________________
+Building & Running the Simulation
 Install dependencies:
 npm install
-
-Run the simulation demo:
+Run the reference simulation engine:
 npm run start
-
-
-This launches the CLI simulation of trust dynamics, VU flows, rejections, and regeneration behavior.
-
-4. Security
-
-See SECURITY.md.
-
+This launches the multi-node CLI simulation, including:
+•	trust dynamics
+•	VU transfers
+•	rejections
+•	regenerative behavior
+•	drift audit cycles
+________________________________________
+Security
+See SECURITY.md for the full policy.
 Summary:
-
-LVS is a critical-infrastructure project.
-
-Vulnerabilities should be reported privately.
-
-Public disclosure is prohibited.
-
-A PGP key will be added.
-
+•	LVS is a critical-infrastructure research project
+•	vulnerabilities must be reported privately
+•	public disclosure is strictly prohibited
+•	PGP security key will be added
 Do NOT:
-
-publish vulnerabilities publicly
-
-open GitHub issues about security
-
-discuss vulnerabilities on social media or chats
-
-We respond within 72 hours with status updates within 7 days.
-
-5. Governance
-
-Governance defines:
-
-improvement process
-
-voting rules
-
-LIP lifecycle
-
-responsibilities of maintainers
-
-See GOVERNANCE.md.
-
-6. Contributing
-
-Pull requests are welcome only for:
-
-documentation improvements
-
-simulation/TS logic corrections
-
-new LIP proposals
-
-See CONTRIBUTING.md.
-
-7. License
-
-This repository uses a composite licensing model, identical to lvs.network.
-
-1. Documentation / Website / Non-core Materials
-
-Licensed under Apache License 2.0 — free use, modification, distribution with attribution.
-
-2. LVS Core Protocol / Reference Node / Consensus Logic
-
+•	publish vulnerabilities in issues
+•	include exploits in pull requests
+•	discuss vulnerabilities in chats/social media
+Response timeline:
+•	acknowledgment: within 72 hours
+•	status update: within 7 days
+________________________________________
+Governance
+LVS Core governance defines:
+•	the LIP process
+•	protocol change procedures
+•	research review
+•	simulation and consensus update rules
+•	maintainer authority
+See GOVERNANCE.md for the complete governance model.
+________________________________________
+Contributing
+Pull requests are accepted only for:
+•	documentation improvements
+•	corrections to TypeScript simulation logic
+•	new LIP proposals
+Contribution rules and workflow: CONTRIBUTING.md
+________________________________________
+Composite Licensing Model
+LVS Core uses a composite license, combining open research with a protected protocol engine.
+1. Documentation & Non-Core Materials
+Licensed under Apache 2.0 — free use, modification and redistribution.
+2. LVS Core Protocol / Consensus Logic
 Not open-source at this stage.
 Licensed under the LVS Core Technology License, which prohibits:
-
-redistribution
-
-modification
-
-commercial use
-
-deployment
-
-publishing derivative works
-
+•	redistribution
+•	deployment
+•	modification for public networks
+•	commercial use
+•	derivative protocol development
 until the official open-source release by the LVS Foundation.
-
+See:
+•	LICENSE
+•	LICENSE_OVERVIEW.md
+•	LICENSE_TECHNOLOGY.md
 3. Trademarks
-
-“LVS”, “LVS Network”, “Living Value System” and logos are trademarks of the LVS Foundation.
-Trademark usage is not granted by this license.
-
-See full text in LICENSE.
-
-8. Code of Conduct
-
-A CODE_OF_CONDUCT.md file will define:
-
-expected community behavior
-
-anti-abuse rules
-
-communication guidelines
-
-PR/issue etiquette
-
-I will generate this file as soon as you say “make CODE_OF_CONDUCT.md”.
-
-9. Project Status
-
+“LVS”, “LVS Network”, “Living Value System”
+and all logos are trademarks of the LVS Foundation (in formation).
+No trademark rights are granted.
+________________________________________
+Code of Conduct
+The project follows strict professional standards for:
+•	communication
+•	security
+•	contributor behavior
+•	research discussion etiquette
+Full policy: CODE_OF_CONDUCT.md
+________________________________________
+Project Status
 ✔ repository structure complete
-✔ full documentation included
-✔ governance, contributing, and security policies added
+✔ documentation imported
+✔ governance, contributing, security policies added
+✔ composite licensing model applied
 ✔ logos integrated
-✔ license compliant
-✔ README at protocol-grade level
+✔ simulation engine operational
+✔ README fully aligned with protocol-grade standards
+________________________________________
+End
+If you want, I can also generate:
+•	a short README for the repo sidebar
+•	a release-friendly version for GitHub Releases
+•	a GitHub Pages index.md in the same style
+
