@@ -1,20 +1,24 @@
 LVS Core — Code of Conduct
+
+The LVS Core project maintains a professional, respectful, and secure research environment.
+All contributors, researchers, and community participants must follow this Code of Conduct.
+
+This document defines expected behavior, prohibited actions, and enforcement rules.
+
 1. Purpose
 
-The LVS Core project is a research-grade protocol initiative.
-We maintain a professional, respectful, and secure environment for all contributors, researchers, and community members.
-
-This Code of Conduct defines expectations for behavior and explains consequences for unacceptable actions.
-
-Our goal is to ensure:
+LVS Core is a research-grade protocol initiative.
+We work in a high-integrity environment that requires:
 
 respectful communication
 
-a safe environment for research collaboration
+safe collaboration
 
-protection of contributors from harassment or hostility
+protection from harassment or hostility
 
-high standards of professionalism
+professionalism in all interactions
+
+responsible handling of sensitive or security-related information
 
 2. Scope
 
@@ -22,101 +26,135 @@ This Code of Conduct applies to:
 
 all GitHub interactions (issues, PRs, comments, discussions)
 
-all official LVS communication channels
+official LVS communication channels
 
-documentation contributions
+documentation and research contributions
 
-research discussions
+LIP proposals and discussions
 
-testnet coordination
+coordination related to experimental testnets
 
-LIP proposal communication
+any project-related collaboration or communication
 
 3. Expected Behavior
 
 All participants must:
 
-Be respectful and professional
+Professionalism
 
-Use clear, constructive language
+Communicate respectfully and constructively
 
-Respect differences in experience, background, and perspective
+Avoid personal attacks or inflammatory language
 
-Focus on project goals
+Assume good intentions whenever possible
 
-Keep discussions relevant to LVS research, development, or documentation
+Focus and Relevance
 
-Avoid unnecessary conflict or off-topic debates
+Keep discussions relevant to LVS research, design, and documentation
 
-Collaborate openly
+Avoid unnecessary conflict or derailing technical threads
 
-Provide helpful feedback
+Collaboration
+
+Provide helpful, actionable feedback
 
 Accept constructive criticism
 
-Value research-driven decision making
+Work transparently when possible
 
-Protect security
+Security Awareness
 
-Do not disclose vulnerabilities publicly
+Follow responsible disclosure processes
 
-Follow the security policy and responsible disclosure rules
+Never publicly expose vulnerabilities
+
+Respect the project’s security policy
 
 4. Unacceptable Behavior
 
-The following is strictly prohibited:
+The following behaviors are strictly prohibited:
 
-Harassment, insults, threats, or discrimination
+Abuse & Harassment
 
-Hate speech or aggressive behavior
+insults, threats, aggression, or degrading comments
 
-Publishing private or sensitive information
+hate speech or discriminatory language
 
-Public disclosure of security vulnerabilities
+intimidation or targeted harassment
 
-Trolling, spamming, or disruptive comments
+Security Violations
 
-Submitting malicious pull requests
+public disclosure of vulnerabilities
 
-Attempting to bypass governance or licensing restrictions
+attempts to bypass project security measures
 
-Any contributor who engages in unacceptable behavior may be removed from discussion channels or permanently banned from contributing.
+submitting malicious PRs or harmful code
 
-5. Reporting Violations
+Disruption
 
-If you encounter inappropriate or harmful behavior, report privately to:
+trolling, spamming, or derailing discussions
 
-Email: security@lvs.network
+off-topic hostility or attempts to provoke conflict
 
-Type: Responsible Disclosure / Conduct Report
+Governance & Licensing Violations
+
+knowingly ignoring project governance rules
+
+attempting to circumvent licensing restrictions
+
+pretending to represent the LVS team without authorization
+
+Any contributor engaging in prohibited behavior may be restricted or permanently banned.
+
+5. Reporting Misconduct
+
+If you witness or experience unacceptable behavior, report it privately.
+
+Contact (Conduct or Security Reports)
+
+security@lvs.network
 
 Include:
 
-link to the problematic behavior
+link(s) to the problematic behavior
 
-description of the issue
+a short description of what happened
 
 optional additional context
 
 Reports are reviewed within 72 hours.
-Actions may include warning, temporary suspension, or removal from the project.
+Possible responses include:
 
-6. Governance & Enforcement
+a private warning
 
-The LVS Core maintainers are responsible for enforcing this Code of Conduct.
+removal of abusive content
 
-Actions may include:
+temporary restriction of participation
 
-asking the contributor to correct behavior
+permanent ban from the project
 
-deleting unacceptable comments
+6. Enforcement
 
-restricting repository access
+The LVS Core Maintainers are responsible for enforcing this code.
 
-banning accounts for repeated violations
+They may take any of the following actions:
+
+request correction of behavior
+
+remove or hide unacceptable content
+
+restrict access to the repository
+
+ban accounts for repeated or severe violations
 
 All enforcement decisions are final.
 
 7. Acknowledgment
 
-By contributing to LVS Core, you agree to follow this Code of Conduct and respect the project’s ethics, security policies, and governance structure.
+By participating in the LVS Core project, you agree to:
+
+follow this Code of Conduct
+
+respect the governance and licensing rules
+
+maintain a safe, professional, and research-driven environment
