@@ -1,137 +1,205 @@
-<p align="center">
-  <img src="assets/logo/lvs-logo-full.png" alt="LVS Core" width="220" />
-</p>
+<p align="center"> <img src="assets/logo/lvs-logo-full.png" width="150"/> </p>
+LVS Core
 
-git add README.md
-git commit -m "Add logo to README"
-git push
+LVS Core is the TypeScript reference implementation of the Living Value System (LVS) — a post-blockchain value network where value is secured by trust, protection, and regeneration, instead of blocks, mining, or gas fees.
 
-# LVS Core
+This repository contains:
+✔ the core simulation engine (VU + TC + Vault + Regenerator)
+✔ a CLI demo
+✔ the full technical documentation set (PDF)
+✔ protocol specifications, architecture, research materials
+✔ LIP proposals (Living Improvement Proposals)
 
-**LVS Core** is a TypeScript reference implementation of the **Living Value System (LVS)** core logic.
+Status: research prototype.
+Not production-ready. Internal APIs and interfaces may change.
 
-LVS is a post-blockchain value network where value is secured by **trust, protection and regeneration** instead of blocks, mining or gas fees.  
-This repository contains the core simulation engine plus the full research & documentation set.
-
-> Status: **research prototype**. Not production-ready. Interfaces and internal APIs may change.
-
----
-
-## 1. Repository structure
-
-```text
+1. Repository Structure
 lvs-core/
-├── src/            # Core TypeScript sources (LVS engine + CLI demo)
-├── docs/           # Full LVS documentation set (PDF)
-│   ├── whitepaper/
-│   ├── research/
-│   ├── consensus/
-│   ├── architecture/
-│   ├── api/
-│   ├── spec/
-│   └── mvp/
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-└── README.md
-src/
-Core logic and a minimal CLI demo:
+ ├── src/                      # TypeScript core (engine + CLI demo)
+ │    ├── index.ts
+ │    ├── state.ts
+ │    ├── types.ts
+ │    └── sim.ts
+ │
+ ├── docs/                     # Full LVS documentation (PDF)
+ │    ├── whitepaper/
+ │    ├── research/
+ │    ├── consensus/
+ │    ├── architecture/
+ │    ├── api/
+ │    ├── spec/
+ │    └── mvp/
+ │
+ ├── lips/                     # LIP – Living Improvement Proposals
+ │    └── LIP-0004-regenerator-and-rejections.md
+ │
+ ├── assets/logo/              # Branding / logos
+ │    ├── lvs-logo.png
+ │    ├── lvs-logo-banner.png
+ │    └── lvs-logo-full.png
+ │
+ ├── CONTRIBUTING.md           # Contribution rules
+ ├── GOVERNANCE.md             # Governance model
+ ├── SECURITY.md               # Security policy
+ ├── LICENSE                   # Composite LVS License
+ ├── CODE_OF_CONDUCT.md        # To be added
+ ├── package.json
+ └── tsconfig.json
 
-sim.ts – entry point for the demo simulation (nodes, ticks, logging).
+2. Documentation Set
+Whitepaper
 
-Other files – internal state, value transfers (VU), Trust Credits (TC), Vault Guard, regenerative logic, etc.
+LVS Whitepaper
 
-Running the demo prints lines like:
+LVS One-Pager
 
-text
-Копировать код
-LVS Core TS demo: 12 nodes, 50 ticks
-Tick 1/50 :: self-VU[min=..., max=...], self-TC[avg=..., min=..., max=...]
-...
-Simulation finished.
-docs/
-All protocol documents live under docs/ and are grouped by topic.
+Research
 
-Whitepaper & high-level
-docs/whitepaper/Lvs Whitepaper En.pdf
+Research Paper Draft
 
-docs/whitepaper/Lvs One Pager En.pdf
+LVS Master Document
 
-Research & theory
-docs/research/Lvs Research Paper Draft En.pdf
+Consensus
 
-docs/research/Lvs Master Document.pdf
+Drift Consensus Specification
 
-Consensus & protocol
-docs/consensus/Lvs Drift Consensus Spec En.pdf
-
-docs/consensus/Lvs Protocol Spec En.pdf
+LVS Protocol Specification
 
 Architecture
-docs/architecture/Lvs Technical Architecture En.pdf
 
-docs/architecture/Lvs Mvp Prototype Architecture En.pdf
+Technical Architecture
 
-API / developer docs
-docs/api/Lvs Developer Guide Api En.pdf
+MVP Prototype Architecture
 
-Node & security spec
-docs/spec/Lvs Node Implementation Blueprint En.pdf
+API
 
-docs/spec/Lvs Security Deep Dive En.pdf
+Developer API Guide
 
-MVP, testnet & website
-docs/mvp/Lvs Testnet Launch Plan En.pdf
+Spec / Deep Dive
 
-docs/mvp/Lvs Website Content En.pdf
+Node Implementation Blueprint
 
-2. Quick start
-Requirements
-Node.js (LTS recommended)
+Security Deep Dive
 
-npm
+MVP / Testnet
 
-Install & run
-bash
-Копировать код
-git clone https://github.com/VOVAN1980/lvs-core.git
-cd lvs-core
+Testnet Launch Plan
 
+Website Content Package
+
+All documents are located inside docs/.
+
+3. Building & Running
+Install dependencies:
 npm install
+
+Run the simulation demo:
 npm run start
-By default the CLI runs a small LVS simulation (e.g. 12 or 100 nodes, 50 ticks) and prints aggregated stats for VU and TC.
 
-3. What the demo shows
-The current CLI demo is a self-contained LVS engine running in Node.js:
 
-generation of a small network of nodes,
+This launches the CLI simulation of trust dynamics, VU flows, rejections, and regeneration behavior.
 
-value transfers in VU (Value Units),
+4. Security
 
-trust evolution via TC (Trust Credits),
+See SECURITY.md.
 
-protected minimum via Vault Guard,
+Summary:
 
-long-run stability of the system over multiple ticks.
+LVS is a critical-infrastructure project.
 
-This repository is the reference core used together with the browser MVP to validate LVS logic.
+Vulnerabilities should be reported privately.
 
-4. Roadmap (high-level)
-Planned directions:
+Public disclosure is prohibited.
 
-Extract a stable core library (separate from the demo).
+A PGP key will be added.
 
-Add property-based tests and scenario suites.
+Do NOT:
 
-Define a clean public API for external integrations.
+publish vulnerabilities publicly
 
-Prototype a networked / multi-process version of LVS nodes.
+open GitHub issues about security
 
-Align code with the Testnet Launch Plan.
+discuss vulnerabilities on social media or chats
 
-5. License
-License: TBD.
-Until a license is added, all rights are reserved by the author.
+We respond within 72 hours with status updates within 7 days.
 
-6. Contact
-For collaboration, research or investor inquiries, please use the contacts listed in the LVS website and documentation.
+5. Governance
+
+Governance defines:
+
+improvement process
+
+voting rules
+
+LIP lifecycle
+
+responsibilities of maintainers
+
+See GOVERNANCE.md.
+
+6. Contributing
+
+Pull requests are welcome only for:
+
+documentation improvements
+
+simulation/TS logic corrections
+
+new LIP proposals
+
+See CONTRIBUTING.md.
+
+7. License
+
+This repository uses a composite licensing model, identical to lvs.network.
+
+1. Documentation / Website / Non-core Materials
+
+Licensed under Apache License 2.0 — free use, modification, distribution with attribution.
+
+2. LVS Core Protocol / Reference Node / Consensus Logic
+
+Not open-source at this stage.
+Licensed under the LVS Core Technology License, which prohibits:
+
+redistribution
+
+modification
+
+commercial use
+
+deployment
+
+publishing derivative works
+
+until the official open-source release by the LVS Foundation.
+
+3. Trademarks
+
+“LVS”, “LVS Network”, “Living Value System” and logos are trademarks of the LVS Foundation.
+Trademark usage is not granted by this license.
+
+See full text in LICENSE.
+
+8. Code of Conduct
+
+A CODE_OF_CONDUCT.md file will define:
+
+expected community behavior
+
+anti-abuse rules
+
+communication guidelines
+
+PR/issue etiquette
+
+I will generate this file as soon as you say “make CODE_OF_CONDUCT.md”.
+
+9. Project Status
+
+✔ repository structure complete
+✔ full documentation included
+✔ governance, contributing, and security policies added
+✔ logos integrated
+✔ license compliant
+✔ README at protocol-grade level
