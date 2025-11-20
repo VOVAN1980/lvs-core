@@ -1,0 +1,20 @@
+# CODEOWNERS for lvs-core
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+
+# Core TypeScript implementation
+/src/* @VOVAN1980
+
+
+# Documentation PDFs
+/docs/* @VOVAN1980
+
+
+# LVS Improvement Proposals
+/lips/* @VOVAN1980
+
+
+# Governance & security
+/SECURITY.md @VOVAN1980
+/GOVERNANCE.md @VOVAN1980
+/LICENSE @VOVAN1980
