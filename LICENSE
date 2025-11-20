@@ -1,0 +1,49 @@
+# License
+
+## 1. Documentation & Research PDFs
+
+All documentation, research papers, specifications and non-protocol materials
+located under the `docs/` directory of this repository are licensed under the
+**Apache License 2.0**.
+
+You may use, copy, modify, and distribute these materials freely, provided
+attribution is maintained and you comply with the terms of the Apache License.
+
+Full text of the Apache License 2.0:
+https://www.apache.org/licenses/LICENSE-2.0
+
+
+## 2. Core LVS Prototype Source Code
+
+The TypeScript implementation in `src/` (LVS core prototype, consensus logic,
+value / trust updates and related system-level code) **is NOT open-sourced
+under Apache 2.0 or MIT**.
+
+All protocol-level technology in this repository is protected under the
+**“LVS Core Technology License”**, which prohibits:
+
+- redistribution of the core source code;
+- modification and redistribution of derivative works;
+- commercial use, production deployments or mainnet launches;
+- offering this code as a hosted or commercial service;
+
+unless you obtain an explicit written permission from the LVS project owner.
+
+This repository is provided for **private review, research and evaluation only**.
+Unauthorized publication, cloning or reverse-engineering of the LVS protocol
+for competing networks is strictly prohibited.
+
+
+## 3. Contributions
+
+External contributions (pull requests, patches, forks) are currently **not**
+accepted into the core protocol. Any contribution that is merged in the future
+will be governed by a separate written agreement with the LVS project owner.
+
+
+## 4. Trademarks
+
+“LVS”, “Living Value System”, “LVS Network” and related logos are trademarks
+of the LVS project owner.
+
+Use of trademarks is **not** granted by this license.
