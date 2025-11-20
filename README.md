@@ -2,6 +2,9 @@
   <img src="assets/logo/lvs-logo-full.png" alt="LVS Core" width="220" />
 </p>
 
+git add README.md
+git commit -m "Add logo to README"
+git push
 
 # LVS Core
 
