@@ -1,17 +1,45 @@
 <p align="center"> <img src="assets/logo/lvs-logo-full.png" width="150"/> </p>
 LVS Core
 
-LVS Core is the TypeScript reference implementation of the Living Value System (LVS) — a post-blockchain value network where value is secured by trust, protection, and regeneration, instead of blocks, mining, or gas fees.
+# LVS Core — Living Value System (Protocol Research)
 
-This repository contains:
-✔ the core simulation engine (VU + TC + Vault + Regenerator)
-✔ a CLI demo
-✔ the full technical documentation set (PDF)
-✔ protocol specifications, architecture, research materials
-✔ LIP proposals (Living Improvement Proposals)
+**LVS Core** is the reference research and simulation engine of **LVS — Living Value System**,  
+a post-blockchain value network based on **trust dynamics, protected minimum value, and regenerative consensus**.
 
-Status: research prototype.
-Not production-ready. Internal APIs and interfaces may change.
+This repository includes:
+- core simulation engine (TypeScript)
+- protocol specifications
+- consensus research papers
+- full architecture documents
+- API developer guides
+- MVP prototype logic
+- testnet preparation materials
+
+LVS is not a blockchain.  
+It is a **value network** where *value, trust, resilience and regeneration* replace blocks, mining and gas fees.
+
+---
+
+## 🔥 Key Concepts
+
+### **Value Units (VU)**
+A gas-free, instant transferable value primitive used across the network.
+
+### **Trust Credits (TC)**
+A measurable trust metric reflecting the node’s long-term honest behavior.
+
+### **Vault Guard**
+A protected minimum value that can never be accidentally lost or destroyed.
+
+### **Regenerative Consensus**
+A self-healing multi-layer process allowing LVS networks to recover from inconsistency without forks.
+
+### **Drift Audit**
+A continuous, probabilistic background check that detects anomalies, rejects harmful transactions and re-aligns nodes.
+
+---
+
+## 📦 Repository Structure
 
 1. Repository Structure
 lvs-core/
