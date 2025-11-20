@@ -1,54 +1,68 @@
-# Security Policy
-
-LVS Core is a critical infrastructure prototype.  
-Security, correctness and integrity of the protocol are top priorities.
-
-We welcome **responsible disclosure** from security researchers and protocol
-experts.
+# Security Policy – LVS Core
 
 
-## Supported Components
+LVS Core is a security-sensitive research project. Thank you for helping keep it safe.
+
+
+## Scope
+
 
 This repository includes:
 
-- TypeScript core prototype (`src/`)
-- Simulation and demo tooling
-- Documentation and research PDFs (`docs/`)
 
-No production mainnet implementation is included here yet, but vulnerabilities
-that could affect future deployments are still important.
+- TypeScript reference implementation (`src/`)
+- Documentation and research materials (`docs/`)
+- LVS Improvement Proposals (`lips/`)
 
 
-## Reporting a Vulnerability
+No production network or mainnet code is hosted here yet, but bugs may still
+impact users of derived implementations.
 
-Please report all security issues **privately**.
 
-Preferred channels:
+---
 
-- Email: `security@lvs.network` (planned project security contact)
-- Or via a private contact channel referenced on the official LVS website
-  once it is announced
 
-When reporting, please include:
+## Reporting a vulnerability
 
-- a clear technical description of the issue;
-- minimal steps to reproduce (if possible);
-- potential impact on value / trust accounting, consensus or safety.
+
+Please report security issues **privately**.
+
+
+- Email: security@lvs.network (to be configured)
+- Type: responsible disclosure
+
 
 Do **NOT**:
 
-- publish vulnerabilities publicly before coordinated disclosure;
-- open public GitHub issues with full exploit details;
-- discuss unpatched issues in social networks or public chats.
 
+- publish vulnerabilities publicly before a fix is available;
+- create public GitHub issues describing the vulnerability in detail;
+- discuss vulnerabilities in public chats or social networks.
 
-## Response & Disclosure
 
 We aim to:
 
-- acknowledge your report within **72 hours**;
-- provide a first triage assessment within **7 days**;
-- coordinate a fix and a reasonable disclosure timeline.
 
-Researchers who follow this policy and help improve LVS security may be
-publicly acknowledged in future credits, if they wish so.
+- acknowledge your report within **72 hours**;
+- provide a status update within **7 days**;
+- coordinate disclosure and credit once a fix is ready.
+
+
+---
+
+
+## Out of scope
+
+
+- Typographical errors and minor documentation issues.
+- Vulnerabilities in third‑party dependencies outside our control.
+- Issues in forks or modified versions of the code.
+
+
+---
+
+
+## Future bounty program
+
+
+A formal security bounty program may be introduced when LVS reaches public testnet or mainnet stages.
