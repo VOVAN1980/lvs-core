@@ -1,77 +1,244 @@
-# LVS Core — Governance Model
+LVS Core — Governance Model
 
-The governance model of the **LVS Core** repository defines how protocol-level decisions, updates, and research directions are coordinated within the LVS ecosystem.
+The governance model of LVS Core defines how protocol research, simulation logic, and architectural decisions are coordinated during the development of the Living Value System (LVS).
 
-This repository contains the **reference TypeScript implementation**, documentation, and research assets. It does not represent the final production version of the LVS protocol. All governance rules described here apply to the research & development phase.
+This repository contains the reference TypeScript implementation, research materials, and LIPs (LVS Improvement Proposals).
+It is not a production network.
+These rules apply exclusively to the research and development phase.
 
----
+1. Roles
+1. Core Maintainer
 
-## 1. Roles
+The Core Maintainer has the highest level of responsibility in the repository.
 
-### **1. Core Maintainer**
-- Oversees the repository.
-- Reviews and approves pull requests.
-- Maintains release planning and documentation integrity.
-- Can merge, close, or revert contributions.
+Responsibilities include:
 
-### **2. Research Contributors**
-- Provide new research documents, analysis, or improvements.
-- May propose changes to simulation logic or documentation.
-- Do not have merge permission.
+reviewing and approving pull requests
 
-### **3. External Contributors**
-- Submit proposals via pull requests.
-- Must follow security, contribution, and licensing rules.
+maintaining repository stability and code quality
 
----
+coordinating releases and documentation
 
-## 2. Decision Process
+ensuring adherence to security and licensing rules
 
-### **A. Small Changes**
-Typo fixes, minor documentation updates, or non-breaking code improvements:
-- Reviewed and approved by the Core Maintainer.
-- No formal proposal required.
+managing the LIP process
 
-### **B. Medium Changes**
-New simulation modules, algorithm refinements, or document additions:
-- Proposal must be submitted via GitHub Issue.
-- Discussion period: 3–7 days.
-- Approval required from the Core Maintainer.
+The Core Maintainer may:
 
-### **C. Major Changes**
-Consensus algorithms, protocol rules, architecture redesign:
-- Requires a formal RFC (Request for Comments).
-- RFC must include: purpose, security impact, diagrams, test scenarios.
-- Approval requires:
-  - Core Maintainer confirmation  
-  - Security review (if applicable)
+merge, revert, or close contributions
 
----
+reject proposals that violate project principles or security
 
-## 3. Security & Integrity Rules
+request additional research before approving protocol changes
 
-- All protocol-level logic must pass internal review before being merged.
-- Unauthorized modification of consensus logic or simulation core is prohibited.
-- Any suspected vulnerability must be reported privately (see `SECURITY.md`).
-- No production networks rely on this repository.
+2. Research Contributors
 
----
+Participants who:
 
-## 4. Versioning
+create documentation
 
-- This repository follows **semantic versioning** when applicable.
-- Tags are created only by the Core Maintainer.
-- Major version increments require a governance approval process.
+propose new protocol ideas
 
----
+perform analysis and modeling
 
-## 5. Trademark Notice
+submit LIPs
 
-"LVS", "Living Value System", logos and visual identity belong to the LVS Foundation and are not covered by the Apache 2.0 documentation license.
+implement non-critical improvements
 
----
+Research Contributors do not have merge permissions.
+Their work is reviewed and integrated by the Core Maintainer.
 
-## 6. Amendments
+3. External Contributors
 
-This Governance document may be updated when the protocol matures.  
-All significant changes must go through the “Major Changes” process.
+Anyone submitting a pull request or issue from outside the LVS research group.
+
+External Contributors must follow:
+
+this governance model
+
+the Code of Conduct
+
+licensing rules
+
+security disclosure procedures
+
+They may participate in discussions and LIPs but cannot merge changes.
+
+2. Decision-Making Process
+
+LVS Core changes are classified into three categories: Small, Medium, and Major.
+Each category has a different approval process.
+
+A. Small Changes
+
+Examples:
+
+documentation fixes
+
+minor code refactoring
+
+typo corrections
+
+non-breaking updates
+
+Process:
+
+reviewed and approved by the Core Maintainer
+
+no formal proposal required
+
+can be merged quickly
+
+B. Medium Changes
+
+Examples:
+
+new simulation modules
+
+improvements to protocol modeling
+
+extensions to message/event handling
+
+new diagrams or research sections
+
+Process:
+
+must be proposed via a GitHub Issue
+
+3–7 days discussion period
+
+approval required from the Core Maintainer
+
+security review if the change touches core logic
+
+C. Major Changes
+
+Examples:
+
+changes to consensus behavior
+
+new protocol rules
+
+modifications to core state transition logic
+
+architectural redesigns
+
+critical security-impacting changes
+
+Process:
+
+Requires a formal RFC-style proposal or LIP:
+
+A Major RFC / LIP must include:
+
+purpose and motivation
+
+problem description
+
+technical design
+
+diagrams or pseudo-code
+
+security considerations
+
+expected impact on simulation behavior
+
+compatibility notes
+
+migration or test scenarios
+
+Approval requires:
+
+Core Maintainer confirmation
+
+Security review (if applicable)
+
+Additional research discussion where needed
+
+Major changes are documented in version history and release notes.
+
+3. Security and Integrity Requirements
+
+All protocol-level logic requires review before merging
+
+Consensus-related changes must not be merged without discussion
+
+Vulnerabilities must be reported privately (see SECURITY.md)
+
+Experimental results must not be misrepresented as production behavior
+
+No production network relies on this repository
+
+Unauthorized modifications or forks of the core implementation violate licensing rules
+
+4. Versioning Policy
+
+The LVS Core repository uses semantic versioning when applicable:
+
+MAJOR — breaking changes or major protocol updates
+
+MINOR — new features or improvements
+
+PATCH — fixes and corrections
+
+Additional rules:
+
+version tags may only be created by the Core Maintainer
+
+major version increments require governance approval
+
+LIP references must be included in release notes for major changes
+
+5. LIP: LVS Improvement Proposals
+
+LIPs define structured protocol changes.
+They exist in the lips/ directory.
+
+A LIP includes:
+
+metadata header
+
+authors
+
+proposal number
+
+status (Draft / Review / Accepted / Rejected / Withdrawn)
+
+motivation
+
+full technical description
+
+examples or diagrams
+
+security & performance considerations
+
+discussion log
+
+A LIP moves through:
+
+Draft
+
+Review
+
+Accepted / Rejected
+
+The Core Maintainer controls transitions between stages.
+
+6. Trademark Notice
+
+“LVS”, “LVS Core”, “Living Value System”, “LVS Network”, and all related logos are trademarks of the LVS Foundation (to be established).
+
+These marks are not granted under the Apache 2.0 license or any other license in this repository.
+
+Unauthorized use is prohibited.
+
+7. Amendments to This Governance Model
+
+The Governance Model may evolve as the protocol matures.
+Significant changes must follow the Major Change process and be documented in:
+
+release notes
+
+commit history
+
+updated governance specification
