@@ -2,8 +2,6 @@
   <img src="assets/logo/lvs-logo-full.png" alt="LVS Core" width="220" />
 </p>
 
-# LVS Core
-
 
 # LVS Core
 
