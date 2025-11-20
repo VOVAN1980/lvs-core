@@ -39,7 +39,8 @@ lvs-core/
  │    └── sim.ts
  │    └── tate.ts
  │    └── node.ts
- │    └──
+ │    └── drift.ts
+ │ 
  ├── docs/                     # Full LVS documentation set (PDF / MD)
  │    ├── whitepaper/
  │    ├── research/
