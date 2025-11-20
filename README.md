@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="assets/logo/lvs-logo-full.png" alt="LVS Core" width="220" />
+</p>
+
+# LVS Core
+
+
 # LVS Core
 
 **LVS Core** is a TypeScript reference implementation of the **Living Value System (LVS)** core logic.
