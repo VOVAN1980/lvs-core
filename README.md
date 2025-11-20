@@ -1,4 +1,3 @@
-<p align="center"> <img src="assets/logo/lvs-logo-full.png" width="150"/> </p>
 <p align="center"> <img src="assets/logo/lvs-logo-full.png" width="150"/> </p> <h1 align="center"><b>LVS Core — Living Value System (Protocol Research)</b></h1> <p align="center"> Reference research engine and technical foundation of the LVS value network. </p> 
 ________________________________________
 Overview
