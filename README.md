@@ -38,8 +38,8 @@ lvs-core/
  │    ├── types.ts
  │    └── sim.ts
  │    └── tate.ts
+ │    └── node.ts
  │    └──
- │
  ├── docs/                     # Full LVS documentation set (PDF / MD)
  │    ├── whitepaper/
  │    ├── research/
