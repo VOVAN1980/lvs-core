@@ -74,11 +74,15 @@ lvs-core/
  │    └── mvp/
  │
  ├── lips/                     # LIP — Living Improvement Proposals
- │    
- 
- 
- 
-       └── LIP-0004-regenerator-and-rejections.md
+ │     ├── LIP-0001-core-overview.md
+ │     ├── LIP-0002-trust-credits.md
+ │     ├── LIP-0003-vault-guard.md
+ │     └── LIP-0004-regenerator-and-rejections.md
+ │
+ ├── README.md
+ │
+ │
+ │
  │
  ├── assets/logo/              # Branding / visual identity
  │    ├── lvs-logo.png
