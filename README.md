@@ -44,9 +44,24 @@ lvs-core/
  │
  │
  ├── lvs-core-rs/
- │     ├── bin/
- │     ├── src/
- │     ├── Cargo.toml
+ ├── bin/
+ │     ├── lvs-gateway.rs
+ │     ├── lvs-node.rs
+ │     ├── lvs-sim.rs
+ │                  
+ ├── src/
+ │     ├── drift.rs
+ │     ├── lib.rs
+ │     ├── net.rs
+ │     ├── node.rs
+ │     └── sim.rs
+ │     └── state.rs
+ │     └── types.rs
+ │
+ ├──  Cargo.toml
+ ├──  README.md        
+ ├──  Cargo.loc
+ │
  ├── README.md
  │
  ├── docs/                     # Full LVS documentation set (PDF / MD)
@@ -59,7 +74,11 @@ lvs-core/
  │    └── mvp/
  │
  ├── lips/                     # LIP — Living Improvement Proposals
- │    └── LIP-0004-regenerator-and-rejections.md
+ │    
+ 
+ 
+ 
+       └── LIP-0004-regenerator-and-rejections.md
  │
  ├── assets/logo/              # Branding / visual identity
  │    ├── lvs-logo.png
