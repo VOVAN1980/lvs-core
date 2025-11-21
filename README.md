@@ -168,6 +168,7 @@ Licensed under Apache 2.0 — free use, modification and redistribution.
 2. LVS Core Protocol / Consensus Logic
 Not open-source at this stage.
 Licensed under the LVS Core Technology License, which prohibits:
+🔒
 •	redistribution
 •	deployment
 •	modification for public networks
