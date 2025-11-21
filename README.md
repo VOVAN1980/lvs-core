@@ -40,7 +40,15 @@ lvs-core/
  │    └── tate.ts
  │    └── node.ts
  │    └── drift.ts
- │ 
+ │
+ │
+ │
+ ├── lvs-core-rs/
+ │     ├── bin/
+ │     ├── src/
+ │     ├── Cargo.toml
+ ├── README.md
+ │
  ├── docs/                     # Full LVS documentation set (PDF / MD)
  │    ├── whitepaper/
  │    ├── research/
