@@ -41,8 +41,6 @@ lvs-core/
  │    └── node.ts
  │    └── drift.ts
  │
- │
- │
  ├── lvs-core-rs/
  ├── bin/
  │     ├── lvs-gateway.rs
@@ -62,8 +60,6 @@ lvs-core/
  ├──  README.md        
  ├──  Cargo.loc
  │
- ├── README.md
- │
  ├── docs/                     # Full LVS documentation set (PDF / MD)
  │    ├── whitepaper/
  │    ├── research/
@@ -79,7 +75,7 @@ lvs-core/
  │     ├── LIP-0003-vault-guard.md
  │     └── LIP-0004-regenerator-and-rejections.md
  │
- ├── README.md
+ ├──  LIP-README.md
  │
  │
  │
