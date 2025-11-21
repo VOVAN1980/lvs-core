@@ -200,7 +200,7 @@ The project follows strict professional standards for:
 •	research discussion etiquette
 Full policy: CODE_OF_CONDUCT.md
 ________________________________________
-## Trademark Notice
+Trademark Notice
 LVS™, Living Value System™, LVS Core™, and LVS Network™ are trademarks of  
 the LVS Team / future LVS Foundation (in formation).
 No trademark rights are granted by any license in this repository.
