@@ -60,12 +60,13 @@ lvs-core/
  │     ├── lib.rs
  │     ├── net.rs
  │     ├── node.rs
+ │     └── shared_state.rs
  │     └── sim.rs
  │     └── state.rs
  │     └── types.rs
  │
  ├──  Cargo.toml
- ├──  README.md        
+ ├──  lvs-README.md        
  ├──  Cargo.loc
  │
  ├── docs/                     # Full LVS documentation set (PDF / MD)
@@ -100,6 +101,8 @@ lvs-core/
  ├── LICENSE
  ├── LICENSE_OVERVIEW.md
  ├── LICENSE_TECHNOLOGY.md
+ ├── TRADEMARK_POLICY.md
+ ├── README.md
  ├── package.json
  └── tsconfig.json
 ________________________________________
