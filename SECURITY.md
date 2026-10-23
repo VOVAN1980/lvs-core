@@ -18,6 +18,6 @@ Only the latest build in [Releases](https://github.com/VOVAN1980/lvs-core/releas
 
 ## Stay safe
 
-- Download LVS only from [app.lvs.network](https://app.lvs.network) or the [Releases](https://github.com/VOVAN1980/lvs-core/releases) of this repository.
+- Download LVS only from [lvs.network](https://lvs.network) or the [Releases](https://github.com/VOVAN1980/lvs-core/releases) of this repository.
 - Official Telegram: [@LVS_official](https://t.me/LVS_official) and [@LVSNetworkBot](https://t.me/LVSNetworkBot).
 - LVS administrators **never message you first** and never ask for your keys, passwords or recovery codes.

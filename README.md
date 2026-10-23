@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://app.lvs.network">app.lvs.network</a> ·
+  <a href="https://lvs.network">lvs.network</a> ·
   <a href="https://t.me/LVSNetworkBot">@LVSNetworkBot</a> ·
   <a href="mailto:support@lvs.network">support@lvs.network</a>
 </p>
