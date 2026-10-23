@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Support
+    url: mailto:support@lvs.network
+    about: Account, payments and other personal questions — please write to support, not in public issues.
+  - name: LVS news on Telegram
+    url: https://t.me/LVS_official
+    about: Official channel with updates.
